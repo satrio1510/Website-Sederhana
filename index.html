@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Linktree</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background: url("gambar bg .jpg") no-repeat center center fixed;
+        background-size: cover;
+      }
+      .container {
+        text-align: center;
+        width: 90%;
+        max-width: 400px;
+        background: rgba(123, 119, 119, 0.35);
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(83, 82, 82, 0.431);
+      }
+      .profile-pic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto 10px;
+        border: 3px solid #62626375;
+      }
+      .profile-pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .name {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #eef1f4;
+      }
+      .description {
+        font-size: 1em;
+        margin-bottom: 15px;
+        color: #cfd2d5;
+      }
+      .links a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        background: rgba(99, 99, 100, 0.494);
+        margin: 10px 0;
+        padding: 10px 15px;
+        border-radius: 8px;
+        transition: 0.3s;
+        font-size: 1em;
+        gap: 10px;
+        justify-content: flex-start; /* Mengatur teks sejajar ke kiri */
+      }
+      .links a:hover {
+        background: #5b52d607;
+      }
+      .links img {
+        width: 24px;
+        height: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Foto profil -->
+      <div class="profile-pic">
+        <img src="pp profil.jpg" alt="Profile Picture" />
+      </div>
+      <!-- Nama -->
+      <div class="name">SATRIO RIDWAN G</div>
+      <!-- Kata-kata di bawah nama -->
+      <div class="description">
+        "Hidup adalah perjalanan, mari terus melangkah dan berbagi inspirasi."
+      </div>
+      <!-- Link media sosial -->
+      <div class="links">
+        <a href="https://instagram.com" target="_blank">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733558.png"
+            alt="Instagram Icon"
+          />
+          Instagram
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+            alt="WhatsApp Icon"
+          />
+          WhatsApp
+        </a>
+        <a href="https://shopee.com" target="_blank">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_WsDWIBlPpDJ7KN9WJFVM0WjAkPdWskFvMw&s"
+            alt="Shopee Icon"
+          />
+          Shopee
+        </a>
+        <a href="https://facebook.com" target="_blank">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+            alt="Facebook Icon"
+          />
+          Facebook
+        </a>
+        <a href="https://tiktok.com" target="_blank">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png"
+            alt="TikTok Icon"
+          />
+          TikTok
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
